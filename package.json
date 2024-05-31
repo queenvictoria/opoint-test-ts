@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node dist/index"
+  },
+  "dependencies": {
+    "@opoint/storedsearch": "^0.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "typescript": "^5.4.5"
+  }
+}
